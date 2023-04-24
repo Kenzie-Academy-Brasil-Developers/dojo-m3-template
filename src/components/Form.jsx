@@ -7,7 +7,7 @@ export const Form = () => {
   return (
     <form>
       <Input label="Tarefa" id="todo" value={todo} setValue={setTodo} />
-      <button type="submit">Adcionar</button>
+      <button type="submit">Adicionar</button>
     </form>
   );
 };
